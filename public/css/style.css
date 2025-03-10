@@ -186,6 +186,11 @@
 
 .carousel-item {
     position: relative;
+    height: 400px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    padding: 32px 16px;
 }
 
 .carousel-item a {
