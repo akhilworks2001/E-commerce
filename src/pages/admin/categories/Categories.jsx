@@ -53,7 +53,7 @@ export default function Categories() {
                       categories.length > 0 && categories.map((category, index) => (
                         <tr key={index}>
                           <th>{index + 1}</th>
-                          <td><img className="img-fluid" style={{ width: '200px', height: '200px',objectFit: 'cover'  }} src={category.image} /></td>
+                          <td><img className="img-fluid" style={{ width: '200px', height: '200px',objectFit: 'cover' }} src={category.image} /></td>
                           <td>{category.name}</td>
                           <td>{category.status === "1" ? 'Active' : 'inactive'}</td>
                           <td>
