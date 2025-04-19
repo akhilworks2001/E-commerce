@@ -55,7 +55,7 @@ export default function Products() {
                       products.length > 0 && products.map((product, index) => (
                         <tr key={index}>
                           <td>{index + 1}</td>
-                          <td><img src={product.image} alt="" /></td>
+                          <td><img className="img-fluid" style={{ width: '200px', height: '200px',objectFit: 'contain' }} src={product.image} alt="" /></td>
                           <td>{product.name}</td>
                           <td>${product.price}</td>
                           <td>{product.quantity}</td>

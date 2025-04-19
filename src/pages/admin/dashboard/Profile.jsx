@@ -34,7 +34,7 @@ export default function Profile() {
                <hr />
                <h5>Email: {currentLoginedUser.email}</h5>
                <hr />
-               <h5>Image: <img src={currentLoginedUser.image} alt="" /></h5>
+               <h5>Image: <img className="img-fluid" style={{ width: '100px', height: '100px',objectFit: 'cover' }} src={currentLoginedUser.image} alt="" /></h5>
                <hr />
                <h5>Contact Number: {currentLoginedUser.contact}</h5>
               </div>
